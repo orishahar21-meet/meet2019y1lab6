@@ -1,12 +1,3 @@
-'''def add_numbers():
-   total = 0
-   for number in range(1, 10 + 1):
-       print(number)
-       total = total + number
-   return(total)    
-answer = add_numbers()
-print(answer)
-'''
 '''def jamie_HW():
     start = 333
     for end in range(333, 777 + 1):
@@ -18,15 +9,21 @@ answer = jamie_HW()
 print(answer)
 '''
 def add_numbers(start, end):
+    sum1 = 0
     for i in range(start,end + 1):
-        print(i)
-        start = start + i
-    end = start
-    return(end) 
+        #print(i)
+        sum1 = sum1 + i
+    return(sum1)
 
 test1 = add_numbers(1,2)
 print(test1)
+
 test2 = add_numbers(1, 100)
 print(test2)
+
 test3 = add_numbers(1000, 5000)
 print(test3)
+
+'''home_w = add_numbers(333,777)
+print(home_w)
+'''
